@@ -13,9 +13,9 @@ function Filters() {
     className="rounded-md py-1 px-2 bg-white border-gray-300 border focus:outline-none focus:ring focus:ring-blue-200 focus:border-blue-500"
   >
     <option value="all">All categories</option>
-    <option value="category1">Category 1</option>
-    <option value="category2">Category 2</option>
-    <option value="category3">Category 3</option>
+    <option value="category1">SUVs</option>
+    <option value="category2">Sedans</option>
+    <option value="category3">Station Wagons</option>
   </select>
 </div>
 
