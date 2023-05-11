@@ -1,15 +1,24 @@
 import React from "react";
-// import { a } from "react-router-dom";
-
+import { AiOutlineSearch } from "react-icons/ai";
+import { GiCarKey } from "react-icons/gi";
 const Navbar = () => {
   return (
     <nav className="bg-gray-900 fixed top-0 z-[50] w-full">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-[8px]">
+              <GiCarKey className="text-[#F75D34] text-[32px]" />
             <a to="/" className="text-white font-bold text-2xl">
               SosahMotors
             </a>
+
+          </div>
+
+
+        {/* Search bar */}
+          <div className="flex items-center space-x-[8px]">
+            <input className="w-[200px] px-2 bg-gray-100 text-black font-serif rounded-[4px]" placeholder="Search for your dream car!"/>
+            <AiOutlineSearch className="text-white" />
           </div>
           <div className="flex">
             <a

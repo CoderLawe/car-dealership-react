@@ -11,7 +11,7 @@ function Hero() {
 
         <InfoCard />
 
-        <div className="block absolute top-[100px] right-[290px]">
+        <div className="block absolute top-[100px] right-0 lg:right-[290px]">
             <p className=" text-yellow-500 font-[700] text-[50px]">NEW ARRIVALS!</p>
             {/* <div className="absolute right-[200px] bg-yellow-400 p-5 rounded-full text-gray-900">
                 NEW!

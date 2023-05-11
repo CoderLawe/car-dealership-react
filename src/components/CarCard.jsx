@@ -2,7 +2,7 @@ import React from 'react'
 
 function CarCard({ title, price, image}) {
   return (
-    <div className="h-[336px] w-[288px] block shadow-xl">
+    <div className="h-[336px] w-[320px] lg:w-[288px] block shadow-xl">
         <div className="block">
             <img className="h-[194px] w-full object-cover" src={image}/>
 

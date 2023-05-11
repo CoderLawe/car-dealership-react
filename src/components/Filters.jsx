@@ -2,7 +2,7 @@ import React from 'react'
 
 function Filters() {
   return (
-    <div className="flex justify-between items-center py-3 px-4 ">
+    <div className="block lg:flex justify-between items-center py-3 px-4 ">
         {/* Filter components will go here */}
         <div className="flex items-center">
   <label htmlFor="category" className="mr-2 font-medium">

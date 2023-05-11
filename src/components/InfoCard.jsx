@@ -22,7 +22,7 @@ const carTypeOptions = [
   const [selectedOption, setSelectedOption] = useState(null);
   const [selectedType, setSelectedType] = useState(null);
   return (
-    <div className="bg-white pb-[45px] w-[348px] z-[20] absolute top-[60px] left-[30px] rounded-[8px] block ">
+    <div className="bg-white pb-[45px] w-[348px] z-[20] absolute bottom-[40px] lg:top-[60px] left-[30px] rounded-[8px] block ">
         
         {/* Top card */}
         <p className="text-[#24272C] text-[30px] font-[700] ml-[20px] mr-[78.06px] mt-[21px]">Find the right car!</p>
